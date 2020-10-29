@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    width: 400px;
+    height: 500px;
+    margin: 60px auto;
+    padding: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 50%;
+    height: 50px;
+    border-style: none;
+    border-color:transparent ;
+    cursor: text;
+    font-size: 18px;
+    padding: 0 8px;
+    margin: 10px;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+}
+.terms{
+    display: flex;
+}
+.terms input{
+    width: 20%;
+    height: 20px;
+}
+.btn{
+    margin: 15px auto 15px 0;
+    display: block;
+    width: 98%;
+    height: 50px;
+    background-color: #4dedc0;
+    border-style: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #3c947bd0;
+    cursor: pointer;
+    color: rgb(2, 61, 17);
+}

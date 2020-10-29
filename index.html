@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="welcome.html" name="myform" class = "myform"  onsubmit="return getValidation()" method="post">
+            <div class="names">
+             <input type="text" name="firstname" id="" placeholder="First Name" data-validate-field="firstname" required>
+            <input type="text" name="lastname" id="" placeholder="Last Name" data-validate-field="lastname" required>
+            </div>
+            <input type="email" name="email" id="" placeholder="Email" data-validate-field="email" required>
+            <input type="password" name="password" id="" placeholder="Password" data-validate-field="password" required>
+            <input type="password" name="confirmpassword" id="" placeholder="Confirm Password" data-validate-field="password" required>
+           <div class="terms">
+            <input type="checkbox" name="" id="" data-validate-field="checkbox" required>
+            <span>I accept the <i>terms and conditions</i></span>
+           </div>
+            <input type="submit"  class="btn" id="signup" value="Sign Up">
+        </form>
+        <span class="c1">Already have an account? <a href="">Login here</a></span>
+    </div>
+    
+</body>
+</html>
